@@ -2,8 +2,7 @@
 
 if [ $# -lt 1 ]
 then
-cat << HELP
-
+echo '
 dockertags  --  list all tags for a Docker image on a remote registry.
 
 EXAMPLE: 
@@ -14,12 +13,12 @@ EXAMPLE:
        dockertags php apache
 
     - list all mariadb tags in one line:
-       echo \`dockertags mariadb\`
+       echo `dockertags mariadb`
        
      - Also see:
        https://hub.docker.com/r/library/*image*/
-
-HELP
+'
+exit
 fi
 
 image="$1"
