@@ -1,5 +1,6 @@
 #!/bin/sh
 # todo: add support for non-debian
+cd "$(dirname -- "$0")" 2>/dev/null # allows script to be called from another directory
 
 S=`which sudo`
 which wget >/dev/null || {

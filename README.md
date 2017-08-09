@@ -3,7 +3,7 @@
 Installation:
 
     git clone --depth 1 https://github.com/dagelf/dockertags
-    (cd dockertags;./install.sh)
+    dockertags/install.sh
 
 ## dockertags  
 *List all tags for a Docker image on docker hub.*
