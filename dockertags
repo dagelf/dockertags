@@ -15,6 +15,9 @@ EXAMPLE:
 
     - list all mariadb tags in one line:
        echo \`dockertags mariadb\`
+       
+     - Also see:
+       https://hub.docker.com/r/library/*image*/
 
 HELP
 fi
