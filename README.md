@@ -17,9 +17,10 @@ List all *php* tags containing *apache*:
  
     dockertags php apache
 
-List all *mariadb* tags in one *line*:
+List all *mariadb* tags in one line:
  
     echo `dockertags mariadb`
 
->source: [stackoverflow: How do you list all tags for a Docker image on a remote registry?](https://stackoverflow.com/questions/28320134/how-to-list-all-tags-for-a-docker-image-on-a-remote-registry)
+>dependencies: *wget, awk*  
+*source:* [stackoverflow: How do you list all tags for a Docker image on a remote registry?](https://stackoverflow.com/questions/28320134/how-to-list-all-tags-for-a-docker-image-on-a-remote-registry)
 
